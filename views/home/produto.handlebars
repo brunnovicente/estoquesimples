@@ -1,0 +1,17 @@
+s<div class="container-sm">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">Detalhes do Produto</a>
+            <a href="/" class="btn btn-outline-secondary"><i class="fa-solid fa-chevron-left"></i> Voltar</a>
+        </div>
+    </nav>
+    <div class="row border border-1 rounded rounded-1 m-2">
+        <div class="col-sm">
+            <img src="{{produto.foto}}" class="w-75">
+        </div>
+        <div class="col-sm">
+            <h3>{{produto.descricao}}</h3>
+            <h1 class="text-danger">PREÇO: R$ {{produto.preco}}</h1>
+        </div>
+    </div>
+</div>
