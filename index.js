@@ -61,7 +61,10 @@ app.get('/', (req, res) => {
 import home from './routes/home.js';
 app.use('/home', home)
 
-import home from './routes/principal.js q';
-app.use('/home', home)
+import admin from './routes/admin.js';
+app.use('/admin', admin)
+
+import produto from './routes/produto.js';
+app.use('/produto', produto)
 
 app.listen(8000, ()=> console.log('Servidor Rodando em http://localhost:8000'))

@@ -5,82 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb1344d-afc1-4cc7-9d99-cf0287004e03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/banco.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/HomeController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/PrincipalController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/ProdutoController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Produto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/sinc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/img2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/img3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/produto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/semfoto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-v4compatibility.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-v4compatibility.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/principal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/home/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/home/produto.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layouts/home.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layouts/main.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/produto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/menu-principal.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/msg.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/produto/cadastro.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/produto/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/HomeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/HomeController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/PrincipalController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/AdminController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ProdutoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ProdutoController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/home.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/home.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.handlebars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +46,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/brunnovicente/estoquesimples.git&quot;,
-    &quot;accountId&quot;: &quot;fbe0b618-51b2-4ed2-8659-0a44498650ef&quot;
+    &quot;accountId&quot;: &quot;5e6527cb-3bc5-44c0-b559-5c320f0ae286&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -125,7 +64,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.14.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.14.15&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Github/estoquesimples/public/img&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Github/estoquesimples/views/partials&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -137,6 +76,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\estoquesimples\views\partials" />
       <recent name="D:\Github\estoquesimples\public\img" />
       <recent name="D:\Github\estoquesimples\public" />
     </key>
@@ -160,6 +100,11 @@
       <workItem from="1733512803472" duration="7104000" />
       <workItem from="1733539351208" duration="1344000" />
       <workItem from="1733591224380" duration="4723000" />
+      <workItem from="1733798562767" duration="7219000" />
+      <workItem from="1733875658160" duration="616000" />
+      <workItem from="1733947470371" duration="14634000" />
+      <workItem from="1734477617623" duration="73000" />
+      <workItem from="1734553423472" duration="598000" />
     </task>
     <servers />
   </component>
