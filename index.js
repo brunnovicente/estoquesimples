@@ -67,4 +67,7 @@ app.use('/admin', admin)
 import produto from './routes/produto.js';
 app.use('/produto', produto)
 
+import pessoa from './routes/pessoa.js';
+app.use('/pessoa', pessoa)
+
 app.listen(8000, ()=> console.log('Servidor Rodando em http://localhost:8000'))

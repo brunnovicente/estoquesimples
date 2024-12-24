@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Sistema de Venda de Produtos usado em Sala de Aula",
   "main": "index.js",
-  "devDependencies": {},
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +10,6 @@
   },
   "author": "Bruno Vicente",
   "license": "ISC",
-
   "dependencies": {
     "@handlebars/allow-prototype-access": "^1.0.5",
     "bcrypt": "^5.1.1",
@@ -21,6 +19,7 @@
     "express-handlebars": "^8.0.1",
     "express-session": "^1.18.1",
     "handlebars": "^4.7.8",
+    "jquery": "^3.7.1",
     "mysql2": "^3.11.4",
     "nodemailer": "^6.9.16",
     "passport": "^0.7.0",

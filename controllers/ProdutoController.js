@@ -1,5 +1,4 @@
 import Produto from '../models/Produto.js';
-import {where} from "sequelize";
 
 function index(req, res) {
     Produto.findAll({
@@ -8,7 +7,6 @@ function index(req, res) {
             status: 1,
         }
     }).then(function (produtos){
-        console.dir(produtos)
         res.render('produto/index', {produtos: produtos});
     })
 }
