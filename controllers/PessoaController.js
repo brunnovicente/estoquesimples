@@ -40,11 +40,6 @@ function cadastro(req, res) {
             })
         }
     })
-
-
-
-
-
 }
 
 export default {index, cadastro}

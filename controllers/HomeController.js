@@ -1,32 +1,29 @@
 import Produto from "../models/Produto.js"
 import {Op} from "sequelize"
 
-function index(req, res) {
-    Produto.findAll().then(function (produtos){
-        res.render('home/index', {produtos: produtos, layout: 'home'});
-    })
+async function index(req, res) {
+    const produtos = await Produto.findAll()
+    res.render('home/index', {produtos: produtos, layout: 'home'})
 }
 
-function buscar(req, res) {
-    Produto.findAll({
+async function buscar(req, res) {
+    const produtos = await Produto.findAll({
         where:{
             descricao: {
                 [Op.like]: '%'+req.body.busca+'%'
             }
         }
-    }).then(function (produtos){
-        res.render('home/index', {produtos: produtos, layout: 'home'});
     })
+    res.render('home/index', {produtos: produtos, layout: 'home'});
 }
 
-function produto(req, res) {
-    Produto.findOne({
+async function produto(req, res) {
+    const produto = await Produto.findOne({
         where:{
             id: req.params.id,
         }
-    }).then(function (produto){
-        res.render('home/produto', {produto: produto, layout: 'home'});
     })
+    res.render('home/produto', {produto: produto, layout: 'home'});
 }
 
 export default {index, buscar, produto}

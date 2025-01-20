@@ -1,14 +1,24 @@
 import Produto from '../models/Produto.js';
 
-function index(req, res) {
-    Produto.findAll({
+async function index(req, res) {
+
+    const produtos = await Produto.findAll({
         order: [['descricao', 'ASC']],
         where:{
             status: 1,
         }
-    }).then(function (produtos){
-        res.render('produto/index', {produtos: produtos});
-    })
+    });
+
+    res.render('produto/index', {produtos: produtos});
+
+    // Produto.findAll({
+    //     order: [['descricao', 'ASC']],
+    //     where:{
+    //         status: 1,
+    //     }
+    // }).then(function (produtos){
+    //     res.render('produto/index', {produtos: produtos});
+    // })
 }
 
 function cadastro(req, res) {
