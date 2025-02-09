@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb1344d-afc1-4cc7-9d99-cf0287004e03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config/acl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Usuario.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/partials/alterarsenha.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/partials/ver-usuario.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/usuario/login.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/der.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/assests/der.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/der.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/assests/der.mwb.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/der.png" beforeDir="false" afterPath="$PROJECT_DIR$/assests/der.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/HomeController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/PessoaController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/PessoaController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/pessoa.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/pessoa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/principal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/produto.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/produto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/home.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/home.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/main.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/menu-principal.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/menu-principal.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pessoa/cadastro.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/pessoa/cadastro.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/alterarsenha.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/alterarsenha.handlebars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +102,7 @@
       <workItem from="1737371190704" duration="2323000" />
       <workItem from="1737725351563" duration="4217000" />
       <workItem from="1737813444761" duration="6735000" />
-      <workItem from="1739107457047" duration="13547000" />
+      <workItem from="1739107457047" duration="13739000" />
     </task>
     <task id="LOCAL-00001" summary="Pessoas e Produtos funcionando.">
       <option name="closed" value="true" />
