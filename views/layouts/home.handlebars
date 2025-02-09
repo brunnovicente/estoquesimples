@@ -5,33 +5,23 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home: Produtos</title>
+    <title>Estoque</title>
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/all.css">
 </head>
 <body>
-
-    <nav class="navbar" style="background-color: #4682B4;">
-        <div class="container-sm">
-            <a class="navbar-brand text-white" href="/">
-                <i class="fa-solid fa-landmark"></i> IFMA Construções
-            </a>
-            <a href="/admin" class="text-white text-center text-decoration-none">
-                <i class="fa-regular fa-circle-user h1"></i><br>
-                Olá, Faça Seu Login
-            </a>
+    <nav class="navbar bg-success">
+        <div class="container-fluid">
+            <span class="navbar-brand text-white mb-0 h1">
+                <a href="/admin" class="text-decoration-none text-white">IFMA Construções</a>
+            </span>
         </div>
     </nav>
-
+    {{>msg}}
     {{{body}}}
-
-    <hr>
-    <footer>
-    <p class="text-center"><i class="fa-regular fa-copyright"></i>IFMA Construções LTDA - CNPJ 11.112.589/0003-00</p>
-    <p class="text-center">Av. Antônio Guimarães, S/Nº, Bairro Olho D’aguinha, Coelho Neto – MA, CEP: 65620-000.</p>
-    <p class="text-center">Preços e condições sujeitas a alterações.</p>
-    <p class="text-center">Todos os direitos reservados.</p>
-    </footer>
     <script src="/js/bootstrap.bundle.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery.mask.js"></script>
 </body>
 </html>

@@ -5,11 +5,20 @@
         </span>
         <div class="dropdown">
             <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-user"></i> Usuário
+                <i class="fa-solid fa-user"></i>
             </button>
+
             <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="#"><i class="fa-regular fa-id-card"></i> Meus Dados</a></li>
-                <li><a class="dropdown-item" href="/usuario/alterarsenha"><i class="fa-solid fa-key"></i> Alterar Senha</a></li>
+                <li>
+                    <a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#meusdados">
+                        <i class="fa-regular fa-id-card"></i> Meus Dados
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alterarsenha">
+                        <i class="fa-solid fa-key"></i> Alterar Senha
+                    </a>
+                </li>
 
                 <div class="dropdown-divider"></div>
                 <li>

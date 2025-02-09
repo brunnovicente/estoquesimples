@@ -1,0 +1,51 @@
+<!-- Modal -->
+<div class="modal fade" id="meusdados" tabindex="-1" aria-labelledby="meusdadosLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="meusdadosLabel">Meus Dados</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <label for="">NOME</label>
+                            <input type="text" class="form-control" disabled value="{{usuario.pessoa.nome}}">
+                        </div>
+                        <div class="col-sm-4">
+                            <label for="">CPF</label>
+                            <input type="text" class="form-control" disabled value="{{usuario.pessoa.cpf}}">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label for="">TELEFONE</label>
+                            <input type="text" class="form-control" disabled value="{{usuario.pessoa.telefone}}">
+                        </div>
+                        <div class="col-sm-8">
+                            <label for="">E-MAIL</label>
+                            <input type="text" class="form-control" disabled value="{{usuario.pessoa.email}}">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <label for="">NOME DE USUÁRIO</label>
+                            <input type="text" class="form-control" disabled value="{{usuario.login}}">
+                        </div>
+                        <div class="col-sm-4">
+                            <label for="">CATEGORIA</label>
+                            <input type="text" class="form-control" disabled value="{{mostrarCategoria usuario.categoria}}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+<!--                <button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+        </div>
+    </div>
+</div>

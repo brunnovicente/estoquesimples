@@ -10,6 +10,8 @@ import { allowInsecurePrototypeAccess} from "@handlebars/allow-prototype-access"
 import session from "express-session";
 import flash from "connect-flash"
 import passport from "passport"
+import auth from './config/auth.js'
+auth(passport)
 
 ////////////////////////
 //CONFIGURAÇÕES
@@ -38,6 +40,13 @@ app.engine('handlebars', handlebars.engine({
     'helpers':{
         json: function (objeto){
             return JSON.stringify(objeto, null, 2)
+        },
+        mostrarCategoria: function (categoria){
+            if(categoria === 1){
+                return 'Administrador'
+            }else{
+                return 'Padrão'
+            }
         }
     }
 }));
@@ -55,11 +64,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 //ROTAS DO SISTEMA
 ////////////////////
 app.get('/', (req, res) => {
-    res.redirect('/home');
+    res.redirect('/admin');
 })
 
-import home from './routes/home.js';
-app.use('/home', home)
 
 import admin from './routes/admin.js';
 app.use('/admin', admin)
@@ -69,5 +76,8 @@ app.use('/produto', produto)
 
 import pessoa from './routes/pessoa.js';
 app.use('/pessoa', pessoa)
+
+import usuario from './routes/usuario.js';
+app.use('/usuario', usuario)
 
 app.listen(8000, ()=> console.log('Servidor Rodando em http://localhost:8000'))

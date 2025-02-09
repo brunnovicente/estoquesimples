@@ -1,0 +1,23 @@
+<div class="row m-0">
+    <div class="col-md-3 mx-auto">
+        <div class="card mt-2">
+            <div>
+                <a href="/admin">
+                    <img src="/img/login.png" class="w-25 my-2 d-block mx-auto">
+                </a>
+                <h5 class="text-center">Acesso ao Sistema</h5>
+            </div>
+            <div class="card-body">
+                <form action="/usuario/login" method="post">
+                    <label for="username">E-MAIL</label>
+                    <input type="text" id="login" name="username" class="form-control" required>
+                    <label for="password">SENHA</label>
+                    <input type="password" id="password" name="password" class="form-control" required>
+                    <button type="submit" class="btn btn-success mt-2 w-100">Entrar</button>
+                </form>
+                <p class="text-center"><a href="/pessoa/cadastro" class="mt-2">Cadastre-se</a></p>
+                <a href="/usuario/codigo" class="btn btn-default d-block mt-2">Esqueceu a senha?</a>
+            </div>
+        </div>
+    </div>
+</div>

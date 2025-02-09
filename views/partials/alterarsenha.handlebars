@@ -1,0 +1,26 @@
+<!-- Modal -->
+<div class="modal fade" id="alterarsenha" tabindex="-1" aria-labelledby="alterarsenhaLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="alterarsenhaLabel">Alterar Senha</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" action="/usuario/alterarsenha">
+            <div class="modal-body">
+
+                    <label for="">NOVA SENHA</label>
+                    <input type="password" name="senha1" class="form-control mb-3">
+
+                    <label for="">REPITA A NOVA SENHA</label>
+                    <input type="password" name="senha2" class="form-control mb-3">
+
+            </div>
+            <div class="modal-footer">
+<!--                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                <button type="submit" class="btn btn-primary">Alterar</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
