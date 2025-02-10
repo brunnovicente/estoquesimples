@@ -27,6 +27,4 @@ Usuario.belongsTo(Pessoa, {
     as: 'pessoa'
 })
 
-Usuario.sync()
-
 export default Usuario
