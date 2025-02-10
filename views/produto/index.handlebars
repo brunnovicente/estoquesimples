@@ -1,3 +1,23 @@
+<style>
+
+    .autocomplete-container {
+        position: relative;
+        width: 300px;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+        display: none;
+        position: absolute;
+        z-index: 1000;
+    }
+
+    .dropdown-item {
+        cursor: pointer;
+    }
+
+</style>
+
 <div class="container-sm">
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
@@ -13,6 +33,11 @@
             </ul>
         </div>
     </nav>
+
+    <div class="autocomplete-container">
+        <input type="text" id="search" class="form-control" placeholder="Digite algo..." onkeyup="showSuggestions()">
+        <ul id="suggestions" class="dropdown-menu"></ul>
+    </div>
 
     <table class="table table-striped">
         <tr>
@@ -41,3 +66,47 @@
     </table>
 
 </div>
+
+<script>
+    const suggestionsList = [
+        "HTML", "CSS", "JavaScript", "Bootstrap", "React",
+        "Node.js", "MongoDB", "Python", "Django", "SQL"
+    ];
+
+    function showSuggestions() {
+        const input = document.getElementById("search");
+        const suggestionsDiv = document.getElementById("suggestions");
+        const query = input.value.toLowerCase();
+
+        // Limpa sugestões anteriores
+        suggestionsDiv.innerHTML = "";
+        suggestionsDiv.style.display = "none";
+
+        if (query.length === 0) return;
+
+        // Filtra sugestões
+        const filteredSuggestions = suggestionsList.filter(item =>
+                item.toLowerCase().includes(query)
+        );
+
+        if (filteredSuggestions.length === 0) return;
+
+        // Exibe sugestões
+        filteredSuggestions.forEach(item => {
+            const li = document.createElement("li");
+            li.classList.add("dropdown-item");
+            li.textContent = item;
+
+            // Ao clicar na sugestão, preenche o input
+            li.addEventListener("click", () => {
+                input.value = item;
+                suggestionsDiv.innerHTML = "";
+                suggestionsDiv.style.display = "none";
+            });
+
+            suggestionsDiv.appendChild(li);
+        });
+
+        suggestionsDiv.style.display = "block";
+    }
+</script>
